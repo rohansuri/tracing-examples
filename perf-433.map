@@ -1,0 +1,380 @@
+7ff5f5000060 1d flush_icache_stub
+7ff5f5000160 21b get_cpu_info_stub
+7ff5f5000420 3f forward exception
+7ff5f500045f e8 call_stub
+7ff5f5000547 1f catch_exception
+7ff5f5000566 5 atomic_xchg
+7ff5f500056b 7 atomic_xchg_ptr
+7ff5f5000572 7 atomic_cmpxchg
+7ff5f5000579 9 atomic_cmpxchg_long
+7ff5f5000582 9 atomic_add
+7ff5f500058b c atomic_add_ptr
+7ff5f5000597 6 orderaccess_fence
+7ff5f500059d c2 handler_for_unsafe_access
+7ff5f500065f d get_previous_fp
+7ff5f500066c 8 get_previous_sp
+7ff5f5000674 1 verify_mxcsr
+7ff5f5000680 256 updateBytesCRC32
+7ff5f50520a0 38 f2i_fixup
+7ff5f50520d8 43 f2l_fixup
+7ff5f505211b 50 d2i_fixup
+7ff5f505216b 5a d2l_fixup
+7ff5f50521e0 10 float_sign_mask
+7ff5f5052200 10 float_sign_flip
+7ff5f5052220 10 double_sign_mask
+7ff5f5052240 10 double_sign_flip
+7ff5f5052250 140 verify_oop
+7ff5f50523a0 d7 jbyte_disjoint_arraycopy
+7ff5f5052480 df jbyte_arraycopy
+7ff5f5052560 c7 jshort_disjoint_arraycopy
+7ff5f5052640 bf jshort_arraycopy
+7ff5f5052700 a4 jint_disjoint_arraycopy
+7ff5f50527c0 af jint_arraycopy
+7ff5f5052880 93 jlong_disjoint_arraycopy
+7ff5f5052920 9f jlong_arraycopy
+7ff5f50529c0 d7 oop_disjoint_arraycopy
+7ff5f5052aa0 e8 oop_arraycopy
+7ff5f5052ba0 d7 oop_disjoint_arraycopy_uninit
+7ff5f5052c80 e8 oop_arraycopy_uninit
+7ff5f5052d80 d3 checkcast_arraycopy
+7ff5f5052e60 d3 checkcast_arraycopy_uninit
+7ff5f5052f40 3b unsafe_arraycopy
+7ff5f5052f7b 1c5 generic_arraycopy
+7ff5f5053140 90 jbyte_fill
+7ff5f50531e0 71 jshort_fill
+7ff5f5053260 52 jint_fill
+7ff5f50532c0 90 arrayof_jbyte_fill
+7ff5f5053360 71 arrayof_jshort_fill
+7ff5f50533e0 52 arrayof_jint_fill
+7ff5f5053432 1f log
+7ff5f5053451 1f log10
+7ff5f5053470 350 sin
+7ff5f50537c0 350 cos
+7ff5f5053b10 352 tan
+7ff5f5053e62 3b2 exp
+7ff5f5054214 497 pow
+7ff5f50546b0 10 key_shuffle_mask
+7ff5f50546c0 11a aescrypt_encryptBlock
+7ff5f50547e0 11a aescrypt_decryptBlock
+7ff5f5054900 228 cipherBlockChaining_encryptAESCrypt
+7ff5f5054b40 3a6 cipherBlockChaining_decryptAESCrypt
+7ff5f5054ee6 6 SafeFetch32
+7ff5f5054eec 7 SafeFetchN
+7ff5f5054f00 219 multiplyToLen
+7ff5f5055120 12d squareToLen
+7ff5f5055260 fa mulAdd
+7ff5f5106860 1 _invokeGeneric
+7ff5f5106861 4e _invokeBasic
+7ff5f51068af 45 _linkToVirtual
+7ff5f51068f4 24 _linkToStatic
+7ff5f5106918 2f _linkToSpecial
+7ff5f5106947 8d _linkToInterface
+7ff5f5004ee0 70 AbstractMethodError throw_exception
+7ff5f5005020 1b0 wrong_method_stub
+7ff5f5005260 70 StackOverflowError throw_exception
+7ff5f5005360 40000 Interpreter
+7ff5f50453e0 100 UncommonTrapBlob
+7ff5f50455a0 360 SafepointBlob
+7ff5f5045960 1b0 wrong_method_abstract_stub
+7ff5f5045ba0 1b0 ic_miss_stub
+7ff5f5045de0 1b0 resolve_opt_virtual_call
+7ff5f5046020 1b0 resolve_virtual_call
+7ff5f5046260 1b0 resolve_static_call
+7ff5f50464a0 168 I2C/C2I adapters
+7ff5f5046720 160 I2C/C2I adapters
+7ff5f50468e0 160 I2C/C2I adapters
+7ff5f5046aa0 150 I2C/C2I adapters
+7ff5f5046c60 158 I2C/C2I adapters
+7ff5f5046e20 188 SafepointBlob
+7ff5f5047020 178 SafepointBlob
+7ff5f5047240 308 DeoptimizationBlob
+7ff5f50475e0 2800 InlineCacheBuffer
+7ff5f5049e60 4000 adapters
+7ff5f504dee0 160 I2C/C2I adapters
+7ff5f504e0a0 188 I2C/C2I adapters
+7ff5f504e2a0 170 I2C/C2I adapters
+7ff5f504e4a0 180 I2C/C2I adapters
+7ff5f504e6a0 158 I2C/C2I adapters
+7ff5f504e860 168 I2C/C2I adapters
+7ff5f504ea60 178 I2C/C2I adapters
+7ff5f504ec60 180 I2C/C2I adapters
+7ff5f504ee60 178 I2C/C2I adapters
+7ff5f504f060 170 I2C/C2I adapters
+7ff5f504f260 1a0 I2C/C2I adapters
+7ff5f504f460 178 I2C/C2I adapters
+7ff5f504f660 178 I2C/C2I adapters
+7ff5f504f860 178 I2C/C2I adapters
+7ff5f504fa60 180 I2C/C2I adapters
+7ff5f504fc60 180 I2C/C2I adapters
+7ff5f504fe60 180 I2C/C2I adapters
+7ff5f5050060 178 I2C/C2I adapters
+7ff5f5050260 170 I2C/C2I adapters
+7ff5f5050460 178 I2C/C2I adapters
+7ff5f5050660 170 I2C/C2I adapters
+7ff5f5050860 178 I2C/C2I adapters
+7ff5f5050a60 178 I2C/C2I adapters
+7ff5f5050c60 170 I2C/C2I adapters
+7ff5f5050e60 170 I2C/C2I adapters
+7ff5f5051060 170 I2C/C2I adapters
+7ff5f5051260 170 I2C/C2I adapters
+7ff5f5051460 168 I2C/C2I adapters
+7ff5f5051660 188 I2C/C2I adapters
+7ff5f5051860 178 I2C/C2I adapters
+7ff5f5051a60 1c8 I2C/C2I adapters
+7ff5f5051ca0 188 I2C/C2I adapters
+7ff5f5051ea0 180 I2C/C2I adapters
+7ff5f5057ae0 f0 jni_fast_GetBooleanField
+7ff5f5057c60 168 I2C/C2I adapters
+7ff5f5057e60 70 IncompatibleClassChangeError throw_exception
+7ff5f5057f60 70 NullPointerException at call throw_exception
+7ff5f5058060 178 I2C/C2I adapters
+7ff5f5058260 198 I2C/C2I adapters
+7ff5f5058460 180 I2C/C2I adapters
+7ff5f5058660 180 I2C/C2I adapters
+7ff5f5058860 158 I2C/C2I adapters
+7ff5f5058a20 160 I2C/C2I adapters
+7ff5f5058be0 160 I2C/C2I adapters
+7ff5f5058da0 180 I2C/C2I adapters
+7ff5f5058fa0 180 I2C/C2I adapters
+7ff5f50591a0 8000 native signature handlers
+7ff5f5061220 400 Signature Handler Temp Buffer
+7ff5f50616a0 160 I2C/C2I adapters
+7ff5f5061860 180 I2C/C2I adapters
+7ff5f5061a60 1a0 I2C/C2I adapters
+7ff5f5061c60 178 I2C/C2I adapters
+7ff5f5061e60 180 I2C/C2I adapters
+7ff5f5062060 170 I2C/C2I adapters
+7ff5f5062260 170 I2C/C2I adapters
+7ff5f5062460 168 I2C/C2I adapters
+7ff5f5062660 188 I2C/C2I adapters
+7ff5f5062860 180 I2C/C2I adapters
+7ff5f5062a60 178 I2C/C2I adapters
+7ff5f5062c60 208 I2C/C2I adapters
+7ff5f5062ee0 1b0 I2C/C2I adapters
+7ff5f5063120 1c0 I2C/C2I adapters
+7ff5f5063360 168 I2C/C2I adapters
+7ff5f5063560 160 I2C/C2I adapters
+7ff5f5063720 180 I2C/C2I adapters
+7ff5f5063920 180 I2C/C2I adapters
+7ff5f5063b20 170 I2C/C2I adapters
+7ff5f5063d20 160 I2C/C2I adapters
+7ff5f5063ee0 180 I2C/C2I adapters
+7ff5f50640e0 168 I2C/C2I adapters
+7ff5f50642e0 168 I2C/C2I adapters
+7ff5f50644e0 168 I2C/C2I adapters
+7ff5f50646e0 168 I2C/C2I adapters
+7ff5f50648e0 168 I2C/C2I adapters
+7ff5f5064ae0 160 I2C/C2I adapters
+7ff5f5064ca0 160 I2C/C2I adapters
+7ff5f5064e60 160 I2C/C2I adapters
+7ff5f5065020 178 I2C/C2I adapters
+7ff5f5065220 170 I2C/C2I adapters
+7ff5f5065420 170 I2C/C2I adapters
+7ff5f5065620 170 I2C/C2I adapters
+7ff5f5065820 170 I2C/C2I adapters
+7ff5f5065a20 170 I2C/C2I adapters
+7ff5f5065c20 170 I2C/C2I adapters
+7ff5f5065e20 170 I2C/C2I adapters
+7ff5f5066020 188 I2C/C2I adapters
+7ff5f5066220 170 I2C/C2I adapters
+7ff5f5066420 160 I2C/C2I adapters
+7ff5f50665e0 178 I2C/C2I adapters
+7ff5f50667e0 180 I2C/C2I adapters
+7ff5f50669e0 198 I2C/C2I adapters
+7ff5f5066be0 198 I2C/C2I adapters
+7ff5f5066de0 178 I2C/C2I adapters
+7ff5f5066fe0 180 I2C/C2I adapters
+7ff5f50671e0 180 I2C/C2I adapters
+7ff5f50673e0 168 I2C/C2I adapters
+7ff5f50675e0 168 I2C/C2I adapters
+7ff5f50677e0 1a8 I2C/C2I adapters
+7ff5f5067a20 170 I2C/C2I adapters
+7ff5f5067c20 170 I2C/C2I adapters
+7ff5f5067e20 170 I2C/C2I adapters
+7ff5f5068020 170 I2C/C2I adapters
+7ff5f5068220 170 I2C/C2I adapters
+7ff5f5068420 170 I2C/C2I adapters
+7ff5f5068620 168 I2C/C2I adapters
+7ff5f5068820 168 I2C/C2I adapters
+7ff5f5068a20 170 I2C/C2I adapters
+7ff5f5068c20 170 I2C/C2I adapters
+7ff5f5068e20 160 I2C/C2I adapters
+7ff5f5068fe0 178 I2C/C2I adapters
+7ff5f50691e0 168 I2C/C2I adapters
+7ff5f50693e0 f0 jni_fast_GetByteField
+7ff5f5069560 f0 jni_fast_GetCharField
+7ff5f50696e0 f0 jni_fast_GetShortField
+7ff5f5069860 f0 jni_fast_GetIntField
+7ff5f50699e0 f0 jni_fast_GetLongField
+7ff5f5069b60 f0 jni_fast_GetFloatField
+7ff5f5069ce0 f0 jni_fast_GetDoubleField
+7ff5f5069e60 168 I2C/C2I adapters
+7ff5f506a060 1b0 I2C/C2I adapters
+7ff5f506a2a0 168 I2C/C2I adapters
+7ff5f506a4a0 1c0 I2C/C2I adapters
+7ff5f506a6e0 180 I2C/C2I adapters
+7ff5f506a8e0 168 I2C/C2I adapters
+7ff5f506aae0 188 I2C/C2I adapters
+7ff5f506ace0 1c8 I2C/C2I adapters
+7ff5f506af20 180 I2C/C2I adapters
+7ff5f506b120 180 I2C/C2I adapters
+7ff5f506b320 180 I2C/C2I adapters
+7ff5f506b520 178 I2C/C2I adapters
+7ff5f506b720 188 I2C/C2I adapters
+7ff5f506b920 1d8 I2C/C2I adapters
+7ff5f506bb60 1a0 I2C/C2I adapters
+7ff5f506bd60 170 I2C/C2I adapters
+7ff5f506bf60 1a0 I2C/C2I adapters
+7ff5f506c160 178 I2C/C2I adapters
+7ff5f506c360 168 I2C/C2I adapters
+7ff5f506c560 188 I2C/C2I adapters
+7ff5f506c760 180 I2C/C2I adapters
+7ff5f506c960 180 I2C/C2I adapters
+7ff5f506cb60 180 I2C/C2I adapters
+7ff5f506cd60 180 I2C/C2I adapters
+7ff5f506cf60 180 I2C/C2I adapters
+7ff5f506d160 170 I2C/C2I adapters
+7ff5f506d360 188 I2C/C2I adapters
+7ff5f506d560 1d8 I2C/C2I adapters
+7ff5f506d7a0 188 I2C/C2I adapters
+7ff5f506d9a0 180 I2C/C2I adapters
+7ff5f506dba0 60 _multianewarrayN_Java
+7ff5f506dd20 80 _multianewarray5_Java
+7ff5f506de20 68 _multianewarray4_Java
+7ff5f506df20 68 _multianewarray3_Java
+7ff5f506e020 60 _multianewarray2_Java
+7ff5f506e0e0 198 I2C/C2I adapters
+7ff5f506e2e0 60 _new_array_nozero_Java
+7ff5f506e3a0 60 _new_array_Java
+7ff5f506e460 60 _new_instance_Java
+7ff5f506e520 88 ExceptionBlob
+7ff5f506e620 58 _g1_wb_pre_Java
+7ff5f506e720 1e8 monitorexit Runtime1 stub
+7ff5f506e9a0 130 monitorenter_nofpu Runtime1 stub
+7ff5f506eb60 1f0 monitorenter Runtime1 stub
+7ff5f506ede0 50 slow_subtype_check Runtime1 stub
+7ff5f506eec0 1a0 throw_incompatible_class_change_error Runtime1 stub
+7ff5f506f100 1a8 throw_class_cast_exception Runtime1 stub
+7ff5f506f340 1a8 throw_array_store_exception Runtime1 stub
+7ff5f506f560 98 handle_exception_from_callee Runtime1 stub
+7ff5f506f660 1f8 handle_exception Runtime1 stub
+7ff5f506f8e0 138 handle_exception_nofpu Runtime1 stub
+7ff5f506faa0 210 new_multi_array Runtime1 stub
+7ff5f506fd60 3f8 new_object_array Runtime1 stub
+7ff5f5070220 3f8 new_type_array Runtime1 stub
+7ff5f50706e0 3b8 fast_new_instance_init_check Runtime1 stub
+7ff5f5070b60 3a8 fast_new_instance Runtime1 stub
+7ff5f5070fa0 208 new_instance Runtime1 stub
+7ff5f5071220 208 register_finalizer Runtime1 stub
+7ff5f50714c0 1a0 throw_null_pointer_exception Runtime1 stub
+7ff5f5071700 1a0 throw_div0_exception Runtime1 stub
+7ff5f5071940 1a8 throw_index_exception Runtime1 stub
+7ff5f5071b80 1a8 throw_range_check_failed Runtime1 stub
+7ff5f5071dc0 1e0 forward_exception Runtime1 stub
+7ff5f5072020 40 unwind_exception Runtime1 stub
+7ff5f50720e0 190 dtrace_object_alloc Runtime1 stub
+7ff5f50722e0 178 I2C/C2I adapters
+7ff5f50724e0 180 I2C/C2I adapters
+7ff5f5072a60 8ccd0 C1 temporary CodeBuffer
+7ff5f50ff7a0 128 monitorexit_nofpu Runtime1 stub
+7ff5f50ff960 1e8 deoptimize Runtime1 stub
+7ff5f50ffbe0 3a0 access_field_patching Runtime1 stub
+7ff5f50fffe0 3a0 load_klass_patching Runtime1 stub
+7ff5f51003e0 3a0 load_mirror_patching Runtime1 stub
+7ff5f51007e0 3a0 load_appendix_patching Runtime1 stub
+7ff5f5100c00 f0 g1_pre_barrier_slow Runtime1 stub
+7ff5f5100d60 b0 g1_post_barrier_slow Runtime1 stub
+7ff5f5100ea0 b8 fpu2long_stub Runtime1 stub
+7ff5f5100fe0 1f0 counter_overflow Runtime1 stub
+7ff5f5101260 1e8 predicate_failed_trap Runtime1 stub
+7ff5f51014e0 1a0 I2C/C2I adapters
+7ff5f51019a0 1b0 I2C/C2I adapters
+7ff5f5101be0 168 I2C/C2I adapters
+7ff5f5101de0 1a0 I2C/C2I adapters
+7ff5f5101fe0 1b0 I2C/C2I adapters
+7ff5f5102720 1a0 I2C/C2I adapters
+7ff5f5102920 188 I2C/C2I adapters
+7ff5f5103020 188 I2C/C2I adapters
+7ff5f5103220 208 I2C/C2I adapters
+7ff5f51034a0 1f0 I2C/C2I adapters
+7ff5f5103720 50 _register_finalizer_Java
+7ff5f51037e0 60 _slow_arraycopy_Java
+7ff5f51038a0 80 _rethrow_Java
+7ff5f5103aa0 178 I2C/C2I adapters
+7ff5f5103ca0 180 I2C/C2I adapters
+7ff5f5103ea0 180 I2C/C2I adapters
+7ff5f51040a0 1b0 I2C/C2I adapters
+7ff5f51042e0 1d8 I2C/C2I adapters
+7ff5f5104520 1c0 I2C/C2I adapters
+7ff5f5104ea0 58 _g1_wb_post_Java
+7ff5f5104fa0 58 _complete_monitor_locking_Java
+7ff5f5106460 180 I2C/C2I adapters
+7ff5f5106660 178 I2C/C2I adapters
+7ff5f5072800 1e8 Ljava/lang/Thread;::currentThread
+7ff5f51017e0 80 Ljava/lang/ref/Reference;::get
+7ff5f51024c0 100 Ljava/lang/Math;::min
+7ff5f5102c40 220 Ljava/lang/String;::hashCode
+7ff5f5104880 208 Ljava/lang/System;::arraycopy
+7ff5f5104c40 e0 Ljava/lang/Object;::<init>
+7ff5f5105320 4c0 Ljava/lang/String;::equals
+7ff5f5105bc0 e0 Ljava/lang/String;::length
+7ff5f5105f60 2e0 Ljava/lang/String;::indexOf
+7ff5f510e6e0 c0 Ljava/lang/String;::charAt
+7ff5f510ea80 a80 Lsun/nio/cs/UTF_8$Encoder;::encode
+7ff5f510fdc0 500 Ljava/lang/CharacterData;::of
+7ff5f5110740 100 Ljava/lang/CharacterDataLatin1;::getProperties
+7ff5f5110b40 160 Ljava/lang/String;::indexOf
+7ff5f5110f60 280 Ljava/util/Arrays;::copyOf
+7ff5f5111500 200 Lsun/misc/Unsafe;::getObjectVolatile
+7ff5f5111880 1c0 Ljava/util/concurrent/ConcurrentHashMap;::tabAt
+7ff5f5111ca0 80 Ljava/nio/Buffer;::position
+7ff5f5111f60 80 Ljava/nio/Buffer;::limit
+7ff5f5112260 220 Ljava/nio/ByteBuffer;::arrayOffset
+7ff5f5112800 360 Ljava/lang/String;::getChars
+7ff5f5112fc0 220 Ljava/nio/Buffer;::position
+7ff5f51134e0 220 Ljava/nio/CharBuffer;::arrayOffset
+7ff5f5113a20 80 Ljava/lang/Object;::<init>
+7ff5f5113d00 120 Ljava/nio/charset/CoderResult;::isUnderflow
+7ff5f51140a0 220 Ljava/nio/ByteBuffer;::array
+7ff5f51145e0 80 Lsun/nio/cs/StreamEncoder;::isOpen
+7ff5f51148e0 440 Ljava/io/BufferedOutputStream;::flush
+7ff5f51150c0 1e0 Ljava/io/BufferedOutputStream;::flushBuffer
+7ff5f5115580 1a0 Ljava/io/BufferedWriter;::ensureOpen
+7ff5f5115a00 1a0 Ljava/io/PrintStream;::ensureOpen
+7ff5f5116260 31a0 Lsun/nio/cs/UTF_8$Encoder;::encodeArrayLoop
+7ff5f511bc00 260 Ljava/nio/Buffer;::limit
+7ff5f511c2a0 1320 Ljava/nio/Buffer;::<init>
+7ff5f511e1e0 c0 Ljava/nio/Buffer;::remaining
+7ff5f511e520 2e0 Ljava/nio/CharBuffer;::wrap
+7ff5f511ec80 1a0 Ljava/nio/HeapCharBuffer;::<init>
+7ff5f511f160 c0 Ljava/io/OutputStream;::flush
+7ff5f511f460 e0 Ljava/nio/Buffer;::clear
+7ff5f511f7c0 120 Ljava/nio/Buffer;::hasRemaining
+7ff5f511fb40 160 Ljava/nio/CharBuffer;::hasArray
+7ff5f511ff00 160 Ljava/nio/ByteBuffer;::hasArray
+7ff5f51202c0 120 Ljava/nio/charset/CoderResult;::isOverflow
+7ff5f5120620 e0 Ljava/nio/Buffer;::flip
+7ff5f5120980 260 Ljava/io/Writer;::write
+7ff5f5121200 1a0 Lsun/nio/cs/StreamEncoder;::ensureOpen
+7ff5f5121680 100 Ljava/io/OutputStreamWriter;::write
+7ff5f5121ac0 520 Ljava/io/BufferedWriter;::flushBuffer
+7ff5f51224c0 100 Ljava/io/BufferedWriter;::min
+7ff5f51228a0 6c0 Ljava/io/BufferedWriter;::write
+7ff5f5123620 360 Ljava/io/PrintStream;::println
+7ff5f5123ce0 1a0 Ljava/lang/String;::indexOf
+7ff5f5124160 640 Lsun/nio/cs/StreamEncoder;::write
+7ff5f5124e00 120 Ljava/io/PrintStream;::print
+7ff5f5125280 980 Ljava/io/PrintStream;::newLine
+7ff5f51265c0 1d0 Ljava/lang/Thread;::sleep
+7ff5f5126980 440 LClassLogsErrorNoSource;::foo
+7ff5f51272c0 3e0 LClassLogsErrorNoSource;::bar
+7ff5f5127b00 1e0 Ljava/io/FileOutputStream;::writeBytes
+7ff5f5127f80 d60 Lsun/nio/cs/StreamEncoder;::implWrite
+7ff5f5129920 14a0 Ljava/nio/charset/CharsetEncoder;::encode
+7ff5f512b900 480 Lsun/nio/cs/UTF_8$Encoder;::encodeLoop
+7ff5f512c140 4e0 Lsun/nio/cs/StreamEncoder;::flushBuffer
+7ff5f512cb00 1c0 Lsun/nio/cs/StreamEncoder;::implFlushBuffer
+7ff5f512d060 b00 Lsun/nio/cs/StreamEncoder;::writeBytes
+7ff5f512e2e0 6a0 Ljava/io/PrintStream;::write
+7ff5f512f060 780 Ljava/io/BufferedOutputStream;::write
+7ff5f512fd00 e0 Ljava/io/FileOutputStream;::write
