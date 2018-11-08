@@ -1,0 +1,8 @@
+
+try out labs from Sasha Goldstein's repo (thanks Sasha!) https://github.com/goldshtn/linux-tracing-workshop
+
+try my hand at a few simulations of my own to better understand usage of these tracing tools and bcc
+(some from Sasha's JPoint talk on the same too)
+
+what performance issues can you think of?
+- memory leak (stack example, not nulling out what we return)
