@@ -8,6 +8,8 @@ Log line alone too is insufficient because it only has the class name that is lo
 (not the method)
 
 sudo /usr/share/bcc/tools/trace 'SyS_write (arg1==1) "%s", arg2' -U -p `pgrep -f ClassLogsErrorNoSource`
+sudo -E perf-java-flames `pgrep -f ClassLogsErrorNoSource`
+grep foo /tmp/perf-`pgrep -f ClassLogsErrorNoSource`.map
 
 Following Sasha's first example in his JPoint talk.
  */
